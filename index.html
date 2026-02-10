@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noir & Gold Café | Premium Coffee Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">Noir & Gold</div>
+            <p style="color: var(--cream); margin-top: 20px; font-size: 0.9rem;">جاري التحميل...</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">
+                Noir & Gold
+                <span class="logo-sub">Since 2026</span>
+            </a>
+            
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                    <li><a href="#about" class="nav-link">من نحن</a></li>
+                    <li><a href="#menu" class="nav-link">القائمة</a></li>
+                    <li><a href="#gallery" class="nav-link">معرض الصور</a></li>
+                    <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="lang-btn" onclick="toggleLanguage()">English</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">مفتوح الآن</span>
+            <h1 class="hero-title">
+                Noir & Gold
+                <span>تجربة القهوة الفاخرة</span>
+            </h1>
+            <p class="hero-desc">
+                حيث يلتقي الأصالة بالحداثة في أجواء باريسية ساحرة. استمتع بأفضل حبوب البن المحمصة يدوياً وأشهى المأكولات الفاخرة.
+            </p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary hero-cta-primary">استكشف القائمة</a>
+                <a href="#contact" class="btn-secondary hero-cta-secondary">احجز طاولتك</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-label about-label">قصتنا</span>
+                    <h3 class="about-title">فن القهوة بأناقة باريسية</h3>
+                    <p class="about-text-1">
+                        تأسس Noir & Gold في عام 2026 بهدف إعادة تعريف تجربة الكافيه في مصر. نحن لسنا مجرد مكان لتناول القهوة، بل وجهة ثقافية تجمع بين الفن الأوروبي الكلاسيكي والروح العصرية.
+                    </p>
+                    <p class="about-text-2">
+                        نختار حبوب البن بدقة من مزارع إثيوبيا الجبلية وكولومبيا، ونحمصها يدوياً في مقرنا للحفاظ على النكهة الغنية. كل فنجان يحكي قصة رحلة استثنائية من المزرعة إلى كوبك.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">☕</div>
+                            <div class="feature-text">
+                                <h4>حمص يدوي</h4>
+                                <p>تحميص يومي طازج</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🌿</div>
+                            <div class="feature-text">
+                                <h4>مكونات عضوية</h4>
+                                <p>من أفضل المزارع</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">👨‍🍳</div>
+                            <div class="feature-text">
+                                <h4>شيفات عالميين</h4>
+                                <p>خبرة 20+ عام</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🎵</div>
+                            <div class="feature-text">
+                                <h4>أجواء موسيقية</h4>
+                                <p>جاز كلاسيكي</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80" alt="Noir & Gold Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number">2026</h3>
+                    <p class="stat-label">سنة التأسيس</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">50+</h3>
+                    <p class="stat-label">نوع قهوة</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">12K+</h3>
+                    <p class="stat-label">عميل سعيد</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">4.9</h3>
+                    <p class="stat-label">تقييم الجوجل</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label menu-label">قائمتنا</span>
+                <h2 class="section-title menu-title">أشهى المذاقات الفاخرة</h2>
+                <p class="section-subtitle menu-subtitle">تشكيلة مختارة بعناية من أجود المكونات لإرضاء أرقى الأذواق</p>
+            </div>
+            
+            <div class="menu-tabs">
+                <button class="menu-tab active" onclick="showMenu('coffee', this)">☕ القهوة المختصة</button>
+                <button class="menu-tab" onclick="showMenu('desserts', this)">🍰 الحلويات</button>
+                <button class="menu-tab" onclick="showMenu('breakfast', this)">🍳 الفطار</button>
+                <button class="menu-tab" onclick="showMenu('main', this)">🥩 الأطباق الرئيسية</button>
+            </div>
+
+            <!-- Coffee Menu -->
+            <div id="coffee" class="menu-content active">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=600&q=80" alt="Espresso">
+                            <span class="menu-item-badge">الأكثر مبيعاً</span>
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">إسبريسو نوار</h3>
+                                <span class="menu-item-price">55 ج.م</span>
+                            </div>
+                            <p class="item-desc">خلطة سرية من أرقى حبوب الأرابيكا الإثيوبية، كريمة غنية، نكهة مكثفة مع لمسة من الشوكولاتة الداكنة</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&q=80" alt="Cappuccino">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">كابتشينو ذهبي</h3>
+                                <span class="menu-item-price">75 ج.م</span>
+                            </div>
+                            <p class="item-desc">إسبريسو مزدوج، حليب مبخر برغوة حريرية، رشة كراميل ذهبية، فن اللاتيه بالشوكولاتة</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1461023058943-48dbf1399192?w=600&q=80" alt="Cold Brew">
+                            <span class="menu-item-badge">صيفي</span>
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">كولد برو 24 ساعة</h3>
+                                <span class="menu-item-price">95 ج.م</span>
+                            </div>
+                            <p class="item-desc">تقطير بارد بطيء لمده 24 ساعة، نكهات حمضيات وتوت بري، منعش ومنشط مع مكعبات ثلج كريستالية</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=600&q=80" alt="Latte Art">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">فلات وايت أسترالي</h3>
+                                <span class="menu-item-price">85 ج.م</span>
+                            </div>
+                            <p class="item-desc">إسبريسو مزدوج من حبوب الكولومبية، حليب دقيق المسام (Micro-foam)، نكهة متوازنة وكريمية</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=600&q=80" alt="Turkish Coffee">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">قهوة تركية فاخرة</h3>
+                                <span class="menu-item-price">65 ج.م</span>
+                            </div>
+                            <p class="item-desc">مطحنة يدوية على الرمل، ماء معدني، هيل طازج من اليمن، تقديم تقليدي مع لokum وحلوى تركية</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=600&q=80" alt="Pour Over">
+                            <span class="menu-item-badge">جديد</span>
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">في60 يدوي</h3>
+                                <span class="menu-item-price">90 ج.م</span>
+                            </div>
+                            <p class="item-desc">تحضير يدوي drip باستخدام مرشح V60، يبرز النكهات الحمضية والزهرية للقهوة الإثيوبية المفلترة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts Menu -->
+            <div id="desserts" class="menu-content">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80" alt="Tiramisu">
+                            <span class="menu-item-badge">الأشهر</span>
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">تيراميسو إيطالي أصيل</h3>
+                                <span class="menu-item-price">120 ج.م</span>
+                            </div>
+                            <p class="item-desc">طبقات من lady fingers منقوعة في إسبريسو قوي، كريمة ماسكاربوني إيطالية، كاكاو خام من بلجيكا</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&q=80" alt="Croissant">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">كرواسون زبدة فرنسي</h3>
+                                <span class="menu-item-price">70 ج.م</span>
+                            </div>
+                            <p class="item-desc">طبقات مقرمشة من العجين المورق، زبدة فرنسية نقية AOP، محمص طازج يومياً في فرننا الخاص</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=600&q=80" alt="Cheesecake">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">سان سيباستيان تشيز كيك</h3>
+                                <span class="menu-item-price">110 ج.م</span>
+                            </div>
+                            <p class="item-desc">تشيز كيك إسباني مشهور بقشرته المحروقة، جبنة كريمية، توت بري طازج وصوص الفانيليا المدخنة</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=600&q=80" alt="Macarons">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">ماكارون فرنسي (4 قطع)</h3>
+                                <span class="menu-item-price">140 ج.م</span>
+                            </div>
+                            <p class="item-desc"> selection من نكهات: بستاشيو إيراني، فانيليا بوربون مدغشقر، توت أسود فرنسي، شوكولاتة بلجيكية</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80" alt="Chocolate Cake">
+                            <span class="menu-item-badge">فاخر</span>
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">كعكة الشوكولاتة البركانية</h3>
+                                <span class="menu-item-price">135 ج.م</span>
+                            </div>
+                            <p class="item-desc">كعكة شوكولاتة 70% كاكاو، قلب سائل دافئ، آيس كريم فانيليا هوم ميد، صوص كراميل مملح</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600&q=80" alt="Panna Cotta">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">بانا كوتا الفانيليا</h3>
+                                <span class="menu-item-price">95 ج.م</span>
+                            </div>
+                            <p class="item-desc">كريمة إيطالية ناعمة بنكهة الفانيليا البوربون، توبينج من توت مشكل طازج وصوص التوت البري</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Breakfast Menu -->
+            <div id="breakfast" class="menu-content">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1525351484163-7529414395d8?w=600&q=80" alt="Eggs Benedict">
+                            <span class="menu-item-badge">الأكثر طلباً</span>
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">بيض بنديكت بالسلمون المدخن</h3>
+                                <span class="menu-item-price">185 ج.م</span>
+                            </div>
+                            <p class="item-desc">بيض poached على طريقة المطاعم الفاخرة، سلمون نرويجي مدخن، صوص هولنديز كلاسيك، إنجلش مافن محمص</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1588137372308-15f75323ca8d?w=600&q=80" alt="Avocado Toast">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">أفوكادو توست فاخر</h3>
+                                <span class="menu-item-price">145 ج.م</span>
+                            </div>
+                            <p class="item-desc">خبز ز sourdough يدوي، أفوكادو مهروس مع ليمون وزيت زيتون بكر، بيض عيون على البخار، رقائق شيلي</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1533089862017-5614ecb352ae?w=600&q=80" alt="Pancakes">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">بان كيك بروتين</h3>
+                                <span class="menu-item-price">130 ج.م</span>
+                            </div>
+                            <p class="item-desc">بان كيك صحي من دقيق الشوفان والموز، توبينج من التوت الطازق والعسل الخام، زبدة لوز</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1482049016gy-2f47f0b29d9?w=600&q=80" alt="Shakshuka">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">شكشوكة شرقية فاخرة</h3>
+                                <span class="menu-item-price">160 ج.م</span>
+                            </div>
+                            <p class="item-desc">طماطم طازجة مشوية مع فلفل أحمر حار، بيض عيون، جبنة فيتا يونانية، زعتر فلسطيني، خبز شراك</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&q=80" alt="French Toast">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">فرنش توست البريوش</h3>
+                                <span class="menu-item-price">155 ج.م</span>
+                            </div>
+                            <p class="item-desc">شرائح بريوش فرنسي منقوعة في كسترد الفانيليا، محمرة في الزبدة، توبينج من الميبل السوري والتوت</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=600&q=80" alt="Granola Bowl">
+                            <span class="menu-item-badge">صحي</span>
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">جرانولا بول صحية</h3>
+                                <span class="menu-item-price">115 ج.م</span>
+                            </div>
+                            <p class="item-desc">جرانولا هوم ميد مع مكسرات مشكلة، ياغورت يوناني طبيعي، فواكه طازجة موسمية، عسل نحل محلي</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Dishes Menu -->
+            <div id="main" class="menu-content">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" alt="Burger">
+                            <span class="menu-item-badge">الأشهر</span>
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">برجر واغيو ياباني A5</h3>
+                                <span class="menu-item-price">380 ج.م</span>
+                            </div>
+                            <p class="item-desc">لحم واغيو ياباني درجة A5، جبنة جرويير سويسرية، بصل كراميليزد، صوص ترافل أسود، برايوش ذهبي</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80" alt="Pasta">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">باستا ترافل كريمي</h3>
+                                <span class="menu-item-price">245 ج.م</span>
+                            </div>
+                            <p class="item-desc">فيتوتشيني طازج يدوي الصنع، زبدة ترافل سوداء طبيعية، كريمة ثقيلة، بارميزان ريجيانو مبشور طازج</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Salad">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">سلطة كينوا سوبريم</h3>
+                                <span class="menu-item-price">165 ج.م</span>
+                            </div>
+                            <p class="item-desc">كينوا عضوية، أفوكادو ناضج، مانجو طازج، جرانولا مالحة، dressing ياغورت يوناني بالزعتر البري</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1432139509613-5c4255815697?w=600&q=80" alt="Steak">
+                            <span class="menu-item-badge">فاخر</span>
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">ستيك ريب آي مشوي</h3>
+                                <span class="menu-item-price">450 ج.م</span>
+                            </div>
+                            <p class="item-desc">لحم أنجوس أمريكي 300 جرام، مشوي على الفحم، بطاطس هاسل باك، سبانخ sautéed، صوص الفلفل الأسود</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1561651823-34a0658ebc9d?w=600&q=80" alt="Shawarma">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">شاورما لحم تركي أصيلة</h3>
+                                <span class="menu-item-price">195 ج.م</span>
+                            </div>
+                            <p class="item-desc">لحم عجل متبل 48 ساعة على الطريقة التركية، خبز تورتيلا منزوع، ثومية لبنانية، خضروات مشوية</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=80" alt="Risotto">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="item-name">ريزوتو المشروم البري</h3>
+                                <span class="menu-item-price">225 ج.م</span>
+                            </div>
+                            <p class="item-desc">أرز أربوريو إيطالي، مشروم بورتابيللو وبوتونتي، مرق خضروات هوم ميد، بارميزان، زبدة مكميلة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label gallery-label">أجوائنا</span>
+                <h2 class="section-title gallery-title">لحظات Noir & Gold</h2>
+                <p class="section-subtitle gallery-subtitle">تجربة بصرية فريدة تجمع بين الفخامة والدفء</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80" alt="Cafe Interior">
+                    <div class="gallery-overlay">
+                        <h4>الديكور الفاخر</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&q=80" alt="Coffee Making">
+                    <div class="gallery-overlay">
+                        <h4>فن التحضير</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600&q=80" alt="Coffee Beans">
+                    <div class="gallery-overlay">
+                        <h4>أجود الحبوب</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=600&q=80" alt="Cafe Atmosphere">
+                    <div class="gallery-overlay">
+                        <h4>أجواء هادئة</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80" alt="Latte Art">
+                    <div class="gallery-overlay">
+                        <h4>فن اللاتيه</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=600&q=80" alt="Dessert">
+                    <div class="gallery-overlay">
+                        <h4>حلويات شهية</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">آراء العملاء</span>
+                <h2 class="section-title">ماذا يقولون عنا؟</h2>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-item active">
+                    <p class="testimonial-text">"أفضل كافيه زرته في حياتي! القهوة هنا فن بحد ذاته، والأجواء تنقلك لشارع باريسي في العشرينات. أنصح به بشدة."</p>
+                    <h4 class="testimonial-author">أحمد محسن</h4>
+                    <p class="testimonial-role">مصور فوتوغرافي</p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"التيراميسو هنا يستحق جائزة! طعم أصيل يذكرني بإيطاليا. فريق العمل محترف جداً والخدمة ممتازة."</p>
+                    <h4 class="testimonial-author">سارة عبدالله</h4>
+                    <p class="testimonial-role">مديرة تسويق</p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"مكان مثالي للاجتماعات العمل أو الاسترخاء. الواي فاي سريع والقهوة ممتازة. أصبحت وجهتي المفضلة في التجمع."</p>
+                    <h4 class="testimonial-author">محمد العتال</h4>
+                    <p class="testimonial-role">ريادي أعمال</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-label">زورونا</span>
+                    <h3 class="contact-title">نحن ننتظركم</h3>
+                    <p style="color: var(--cream); margin-bottom: 40px; font-size: 1.1rem;">
+                        سواء كنت تبحث عن مكان للعمل، لقاء مع الأصدقاء، أو مجرد استراحة هادئة، Noir & Gold هو وجهتك المثالية.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h4 class="location-title">الموقع</h4>
+                                <p class="location-text">شارع التسعين الشمالي، التجمع الخامس، القاهرة الجديدة<br>بجوار مول Point 90</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">
+                                <h4 class="phone-title">الحجز والاستفسار</h4>
+                                <p>0100-NOIR-GOLD (0100-6647-4653)<br>02-26100000</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-text">
+                                <h4 class="email-title">البريد الإلكتروني</h4>
+                                <p>hello@noirgold.cafe<br>reservations@noirgold.cafe</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div class="contact-text">
+                                <h4 class="hours-title">مواعيد العمل</h4>
+                                <p class="hours-text">يومياً: 7:00 صباحاً - 12:00 منتصف الليل<br>الجمعة: 2:00 ظهراً - 12:00 منتصف الليل</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="tel:010066474653" class="btn-primary" style="margin-top: 20px;">اتصل الآن للحجز</a>
+                </div>
+                
+                <div class="contact-map">
+                    <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&q=80" alt="Location Map">
+                    <div class="map-overlay">
+                        <h4>Noir & Gold Café</h4>
+                        <p>افتح الخريطة للوصول</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        Noir & Gold
+                        <span>Since 2026</span>
+                    </a>
+                    <p>وجهتك الأولى للقهوة الفاخرة والأجواء الباريسية في قلب القاهرة الجديدة. نقدم تجربة فريدة تجمع بين الأصالة والحداثة.</p>
+                    <div class="social-links">
+                        <a href="#">f</a>
+                        <a href="#">📷</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📌</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#menu">القائمة</a></li>
+                        <li><a href="#contact">التواصل</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>القائمة</h4>
+                    <ul>
+                        <li><a href="#menu">القهوة المختصة</a></li>
+                        <li><a href="#menu">الحلويات</a></li>
+                        <li><a href="#menu">الفطار</a></li>
+                        <li><a href="#menu">الأطباق الرئيسية</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>تواصل معنا</h4>
+                    <ul>
+                        <li><a href="tel:010066474653">0100-6647-4653</a></li>
+                        <li><a href="mailto:hello@noirgold.cafe">hello@noirgold.cafe</a></li>
+                        <li>التجمع الخامس، القاهرة</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-text">© 2026 Noir & Gold Café. جميع الحقوق محفوظة. | تصميم وتطوير Noir & Gold Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
